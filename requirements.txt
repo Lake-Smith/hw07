@@ -11,3 +11,6 @@ Flask-SQLAlchemy==3.0.3 # Python <--> DB ORM
 pylint-django==2.5.3    # linter help
 Faker==18.3.1           # to install fake data
 gunicorn==20.1.0
+
+# new:
+Flask-JWT-Extended==4.4.4

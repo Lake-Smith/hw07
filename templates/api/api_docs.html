@@ -16,7 +16,7 @@
 <body>
 
     {% with user=user %}
-        {% include 'api/navbar-api.html'  %}
+        {% include 'includes/navbar.html'  %}
     {% endwith %}
 
     <main>
@@ -36,7 +36,7 @@
         <section class="docs">
             {% for key, value in endpoints.items() %}
                 {% for item in value %}
-                    {% include 'api/include-endpoint-detail.html' %}
+                    {% include 'includes/api_endpoint_detail.html' %}
                 {% endfor %}
             {% endfor %}
         </section>
